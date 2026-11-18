@@ -1,0 +1,36 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive Credentials & Private Keys
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.keystore
+*.jks
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Build Artifacts & Binaries
+# (APKs must be uploaded as GitHub Release Assets, not committed into git history)
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hbc
+
+# Logs and Temp
+*.log
+*.tmp
+*.bak
+.cache/
+node_modules/
