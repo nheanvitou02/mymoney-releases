@@ -18,12 +18,12 @@ This guide walks you through downloading, verifying, and installing the official
 ### Step 1: Download the Official APK
 1. Open your Android device browser (e.g. Chrome, Firefox, Brave) and navigate to:  
    **[https://github.com/nheanvitou02/mymoney-releases/releases/latest](https://github.com/nheanvitou02/mymoney-releases/releases/latest)**
-2. Under the **Assets** section, tap **`mymoney-v1.0.0.apk`** to begin downloading.
+2. Under the **Assets** section, tap **`mymoney-v1.0.1.apk`** to begin downloading.
 
 ### Step 2: Open the Downloaded APK
 Once the download is complete:
 - Tap the **Download complete** notification in your Android notification drawer, or
-- Open your device's **Files** or **Downloads** app and tap **`mymoney-v1.0.0.apk`**.
+- Open your device's **Files** or **Downloads** app and tap **`mymoney-v1.0.1.apk`**.
 
 ### Step 3: Allow Installation from this Source (If Prompted)
 Because MyMoney is distributed as an independent APK outside the Google Play Store, Android will display a standard security notice:
@@ -48,17 +48,17 @@ Because MyMoney is distributed as an independent APK outside the Google Play Sto
 
 To guarantee that your downloaded file is authentic, uncorrupted, and unaltered, you can verify its SHA-256 checksum.
 
-### Official SHA-256 Checksum for v1.0.0
+### Official SHA-256 Checksum for v1.0.1
 ```text
-d9b828c86f06eb447c1deb45fe4e90915bf5ce187dbd7aacf94aa474822a8201
+1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
 ```
 
 ### Verification on Linux / macOS
 Open a terminal in your download folder and run:
 ```bash
-sha256sum mymoney-v1.0.0.apk
+sha256sum mymoney-v1.0.1.apk
 ```
-*(On macOS, use `shasum -a 256 mymoney-v1.0.0.apk`)*
+*(On macOS, use `shasum -a 256 mymoney-v1.0.1.apk`)*
 
 The output must match the official checksum above exactly.
 

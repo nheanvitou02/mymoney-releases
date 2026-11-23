@@ -6,6 +6,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ---
 
+## [1.0.1] — 2026-11-23
+
+### Added
+- **Global Button Shape Consistency Tokens:**
+  - Standardized all button elements to use uniform corner radius tokens (`radius.button`, `radius.buttonSm`, `radius.buttonIcon`, `radius.buttonPill`).
+  - All primary, secondary, outline, and destructive action buttons now strictly adhere to a consistent capsule geometry.
+  - All icon-only buttons (navigation arrows, modal close buttons, search clear, deletion triggers) now strictly render as uniform circular controls.
+  - All filter chips, category selectors, and segmented control pills share a dedicated pill geometry token.
+- **Enhanced Screen Reader & Accessibility Metadata:**
+  - Added explicit localized English and Khmer `accessibilityLabel` attributes to all icon-only buttons, navigation controls, and chips.
+  - Added semantic `accessibilityRole="button"` and `accessibilityState` attributes across interactive elements.
+- **Automated Button & Accessibility Test Suites:**
+  - Added comprehensive native testing suites (`button.test.tsx`, `accessibilityPhase2.test.tsx`, `buttonConsistencyPhase3.test.tsx`, `buttonConsistencyPhase4.test.tsx`) covering variant rendering, touch target areas, and screen reader labels.
+
+### Changed
+- **Emerald Quick Add Visual Alignment:**
+  - Aligned all Primary Action Buttons across Settings, Savings Goals, and modals to match the approved Quick Add visual reference: vibrant emerald gradient (`#10B981` to `#059669`), specular top rim highlight, subtle emerald ambient glow, and high-contrast white typography.
+  - Removed artificial 3D bevels, plastic gradients, and thick neon outlines.
+  - Preserved distinct visual styling for Secondary (frosted glass) and Destructive (crimson danger) actions.
+- **DatePicker & Touch Target Calibration:**
+  - Expanded interactive calendar day cell touch targets to 44x44dp minimum while keeping visible day circle indicators visually compact and preventing neighboring cell overlap.
+  - Enforced 44x44dp hitSlop boundaries on month and year navigation controls, eliminating accidental double-taps.
+  - Upgraded Savings Goals management buttons (Edit, Archive, Delete) and History search clear to meet the 44x44dp touch target guideline.
+- **Form & Selection Semantics:**
+  - Replaced custom pressable currency toggles in Savings Goals with `<SegmentedControl>` for appropriate selection semantics rather than masquerading as primary submit buttons.
+  - Unified month navigation chevrons on Dashboard and Reports with standardized circular glass styling.
+
+### Fixed
+- Fixed overlapping hitSlop regions on DatePicker navigation controls.
+- Prevented potential animation timer leaks when `useReducedMotion` is active.
+
+---
+
 ## [1.0.0] — 2026-11-18
 
 ### Added

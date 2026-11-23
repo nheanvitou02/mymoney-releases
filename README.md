@@ -16,18 +16,18 @@
 
 ## 🇰🇭 ភាសាខ្មែរ (Khmer Section)
 
-### 📥 ទាញយក MyMoney v1.0.0 (Download APK)
+### 📥 ទាញយក MyMoney v1.0.1 (Download APK)
 
-- **កំណែផ្លូវការ (Version):** `v1.0.0` (versionCode `1`)
+- **កំណែផ្លូវការ (Version):** `v1.0.1` (versionCode `2`)
 - **កាលបរិច្ឆេទចេញផ្សាយ:** ខែវិច្ឆិកា ឆ្នាំ២០២៦
 - **ប្រព័ន្ធប្រតិបត្តិការដែលគាំទ្រ:** Android 7.0 (API Level 24) ឡើងទៅ
-- **តំណភ្ជាប់ទាញយកផ្ទាល់ (Direct APK Download):** [👉 ទាញយក mymoney-v1.0.0.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.0/mymoney-v1.0.0.apk)
-- **ទំព័រ Release ផ្លូវការលើ GitHub:** [GitHub Release v1.0.0](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.0.0)
-- **ទំហំឯកសារ APK:** ប្រហែល 94 MB (Universal Multi-ABI គាំទ្រទាំង `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
+- **តំណភ្ជាប់ទាញយកផ្ទាល់ (Direct APK Download):** [👉 ទាញយក mymoney-v1.0.1.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk)
+- **ទំព័រ Release ផ្លូវការលើ GitHub:** [GitHub Release v1.0.1](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.0.1)
+- **ទំហំឯកសារ APK:** ប្រហែល 93.1 MB (Universal Multi-ABI គាំទ្រទាំង `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
 
 #### លេខកូដផ្ទៀងផ្ទាត់សុចរិតភាពកញ្ចប់កម្មវិធី (SHA-256 Checksum):
 ```text
-d9b828c86f06eb447c1deb45fe4e90915bf5ce187dbd7aacf94aa474822a8201
+1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
 ```
 
 ---
@@ -117,19 +117,19 @@ Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
 
 ## 🇬🇧 English Section
 
-### 📱 Latest Stable Release: `v1.0.0`
+### 📱 Latest Stable Release: `v1.0.1`
 
 - **Release Date:** November 2026
 - **Package Identifier:** `com.mymoney.app`
-- **Current Version:** `1.0.0` (versionCode `1`)
-- **Direct APK Download:** [Download MyMoney v1.0.0 APK](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.0/mymoney-v1.0.0.apk)
-- **Official Release Page:** [GitHub Release v1.0.0](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.0.0)
+- **Current Version:** `1.0.1` (versionCode `2`)
+- **Direct APK Download:** [Download MyMoney v1.0.1 APK](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk)
+- **Official Release Page:** [GitHub Release v1.0.1](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.0.1)
 - **All Releases:** [GitHub Releases Overview](https://github.com/nheanvitou02/mymoney-releases/releases)
-- **Package Size:** ~94 MB (Universal Multi-ABI supporting `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
+- **Package Size:** ~93.1 MB (Universal Multi-ABI supporting `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
 
 #### Package SHA-256 Checksum:
 ```text
-d9b828c86f06eb447c1deb45fe4e90915bf5ce187dbd7aacf94aa474822a8201
+1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
 ```
 
 ---
