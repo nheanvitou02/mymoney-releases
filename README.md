@@ -45,10 +45,12 @@
 
 ---
 
-### ✨ មុខងារសំខាន់ៗដែលមានក្នុង v1.0.0 (Key Features)
+### ✨ មុខងារសំខាន់ៗដែលមានក្នុង v1.0.1 (Key Features)
 
 - **ក្រៅបណ្តាញ ១០០% (100% Offline Local-First):** ទិន្នន័យត្រូវបានរក្សាទុកក្នុងទូរស័ព្ទរបស់អ្នកដោយប្រើ Expo SQLite (WAL mode) មិនត្រូវការអ៊ីនធឺណិត និងគ្មានការបញ្ជូនទិន្នន័យចេញក្រៅ។
 - **ប្រព័ន្ធរូបិយប័ណ្ណពីរ (USD & KHR):** កត់ត្រាជាដុល្លារ ឬរៀលដោយឡែកពីគ្នា ព្រមទាំងបម្លែង និងបង្ហាញសមតុល្យរួមប្រកបដោយភាពសុក្រឹតតាមអត្រាប្តូរប្រាក់ដែលអ្នកកំណត់។
+- **រចនាប័ទ្មប៊ូតុងស្ដង់ដារ (Unified Capsule Buttons):** ប៊ូតុងទាំងអស់ត្រូវបានកែសម្រួលឱ្យមានរាងមូលទ្រវែងស្មើគ្នា (Capsule shape) តាមប្រព័ន្ធ Emerald Liquid Glass ព្រមទាំងប៊ូតុងរាងមូលស្អាតសម្រាប់ Icon Actions។
+- **ការកែលម្អភាពងាយស្រួល (Accessibility & Touch Targets):** ក្រឡាប្រតិទិន DatePicker និងប៊ូតុងរុករកត្រូវបានពង្រីកផ្ទៃចុចដល់ 44x44dp ការពារការចុចច្រឡំ ព្រមទាំងមាន Screen Reader Labels ទាំងភាសាខ្មែរ និងអង់គ្លេស។
 - **ផ្ទាំងគ្រប់គ្រងទិន្នន័យ (Dashboard):** បង្ហាញសមតុល្យសរុប ចំណូល ចំណាយប្រចាំខែ ក្រាហ្វិកចំណូល-ចំណាយប្រចាំថ្ងៃ និងប្រតិបត្តិការចុងក្រោយ ៥ យ៉ាងច្បាស់លាស់។
 - **ការកត់ត្រា និងស្វែងរកប្រតិបត្តិការ (Transactions & Search):** បង្អួចបញ្ចូលទិន្នន័យរហ័ស ប្រភេទចំណូល-ចំណាយលំនាំដើមចំនួន ១៤ ព្រមទាំងមុខងារស្វែងរក និងច្រោះតាមប្រភេទ។
 - **ការការពារប្រភេទចំណាយ (Category Safety Guard):** ការពារមិនឱ្យលុបប្រភេទណាដែលមានប្រតិបត្តិការជាប់ពាក់ព័ន្ធឡើយ និងមានមុខងារផ្ទេរប្រតិបត្តិការទៅប្រភេទថ្មីមុនពេលលុប។
@@ -63,7 +65,7 @@
 
 ### 📲 របៀបដំឡើងលើ Android (Installation Guide)
 
-1. **ទាញយក APK:** ចុចលើតំណភ្ជាប់ [mymoney-v1.0.0.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.0/mymoney-v1.0.0.apk) ពីកម្មវិធី Browser (Chrome, Firefox, etc.)។
+1. **ទាញយក APK:** ចុចលើតំណភ្ជាប់ [mymoney-v1.0.1.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk) ពីកម្មវិធី Browser (Chrome, Firefox, etc.)។
 2. **បើកឯកសារដែលបានទាញយក:** នៅពេលទាញយករួច ចុចបើកឯកសារពីផ្ទាំង Notification ឬចូលទៅកាន់កម្មវិធី **Files / Downloads** លើទូរស័ព្ទរបស់អ្នក។
 3. **អនុញ្ញាតការដំឡើង (Allow from this source):**
    - ប្រសិនបើប្រព័ន្ធ Android បង្ហាញសារជូនដំណឹងសុវត្ថិភាពថា *"For your security, your phone is not allowed to install unknown apps from this source"* សូមចុចលើ **Settings**។
@@ -80,20 +82,20 @@
 
 ដើម្បីធានាថាឯកសារ APK ដែលអ្នកបានទាញយកមកជាឯកសារពិតប្រាកដចេញពីប្រភពដើម និងគ្មានការកែប្រែដោយភាគីទីបី អ្នកអាចផ្ទៀងផ្ទាត់លេខកូដ SHA-256 ដូចខាងក្រោម៖
 
-- **SHA-256 ផ្លូវការសម្រាប់ v1.0.0:**
+- **SHA-256 ផ្លូវការសម្រាប់ v1.0.1:**
   ```text
-  d9b828c86f06eb447c1deb45fe4e90915bf5ce187dbd7aacf94aa474822a8201
+  1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
   ```
 
 #### របៀបផ្ទៀងផ្ទាត់លើកុំព្យូទ័រ Linux / macOS:
 ```bash
-sha256sum mymoney-v1.0.0.apk
-# ឬលើ macOS: shasum -a 256 mymoney-v1.0.0.apk
+sha256sum mymoney-v1.0.1.apk
+# ឬលើ macOS: shasum -a 256 mymoney-v1.0.1.apk
 ```
 
 #### របៀបផ្ទៀងផ្ទាត់លើ Windows (PowerShell):
 ```powershell
-Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
+Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 ```
 
 ---
@@ -147,10 +149,12 @@ Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
 
 ---
 
-### ✨ Key Features in v1.0.0
+### ✨ Key Features in v1.0.1
 
 - **100% Offline & Local-First:** All financial records are stored strictly on-device in SQLite (`mymoney.db`) with WAL journal mode and foreign key enforcement.
 - **Dual-Currency Precision Math:** Integer arithmetic (cents for USD, riels for KHR) with runtime currency conversion and configurable rounding modes (`EXACT` and `CASH_100`).
+- **Unified Capsule Button Design:** Standardized all primary, secondary, outline, and destructive action buttons to use uniform capsule geometry tokens, matching the approved Emerald Quick Add visual reference.
+- **Enhanced Accessibility & Touch Targets:** DatePicker day cells and navigation chevrons calibrated to meet the 44x44dp minimum boundary. Explicit localized English and Khmer screen reader labels and semantic roles applied across all interactive elements.
 - **Interactive Dashboard:** Dynamic monthly balance summary, daily income/expense bar charts, recent transactions, and month-by-month navigation.
 - **Transactions & Search:** Quick Add bottom sheet, 14 bilingual system categories, real-time keyword search, and filter pills (`All`, `Income`, `Expense`).
 - **Category Deletion Safety Guard:** Prevents transaction loss by blocking deletion of referenced categories, supporting atomic reassignment before removal.
@@ -165,7 +169,7 @@ Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
 
 ### 📲 Installation Guide
 
-1. **Download:** Get [`mymoney-v1.0.0.apk`](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.0/mymoney-v1.0.0.apk) from your browser.
+1. **Download:** Get [`mymoney-v1.0.1.apk`](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk) from your browser.
 2. **Open:** Open the downloaded APK from your notification bar or Files/Downloads app.
 3. **Allow Installation:** If prompted with *"For your security, your phone is not allowed to install unknown apps from this source"*, tap **Settings** and toggle **"Allow from this source"** for that browser or file manager.
 4. **Confirm:** Tap **Install** on the confirmation dialog.
@@ -179,17 +183,17 @@ Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
 
 Verify the SHA-256 hash of your downloaded APK to ensure it matches the official build:
 
-- **Official SHA-256 for v1.0.0:**
+- **Official SHA-256 for v1.0.1:**
   ```text
-  d9b828c86f06eb447c1deb45fe4e90915bf5ce187dbd7aacf94aa474822a8201
+  1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
   ```
 
 ```bash
 # Linux / macOS
-sha256sum mymoney-v1.0.0.apk
+sha256sum mymoney-v1.0.1.apk
 
 # Windows (PowerShell)
-Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
+Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 ```
 
 ---

@@ -13,7 +13,7 @@
 This Privacy Policy explains how MyMoney handles data on your mobile device.
 
 > [!IMPORTANT]
-> **Notice of Scope:** This Privacy Policy accurately reflects the actual technical implementation and data architecture of MyMoney version 1.0.0. It is provided for complete transparency and has not undergone formal legal review.
+> **Notice of Scope:** This Privacy Policy accurately reflects the actual technical implementation and data architecture of MyMoney version 1.0.1. It is provided for complete transparency and has not undergone formal legal review.
 
 ---
 

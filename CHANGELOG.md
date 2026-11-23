@@ -37,6 +37,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Fixed overlapping hitSlop regions on DatePicker navigation controls.
 - Prevented potential animation timer leaks when `useReducedMotion` is active.
 
+### Technical & Platform Specifications
+- **Package Identifier:** `com.mymoney.app`
+- **Version Code:** `2`
+- **Target SDK:** Android 15 / 16 (API Level 36)
+- **Minimum SDK:** Android 7.0 Nougat (API Level 24)
+- **Engine:** Hermes JavaScript Bytecode (`.hbc`)
+- **Architectures:** Multi-ABI Universal (`arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
+- **Signing:** APK Signature Scheme v2 (Production Keystore)
+
 ---
 
 ## [1.0.0] — 2026-11-18

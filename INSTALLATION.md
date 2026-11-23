@@ -64,13 +64,13 @@ The output must match the official checksum above exactly.
 
 ### Verification on Windows (PowerShell)
 ```powershell
-Get-FileHash .\mymoney-v1.0.0.apk -Algorithm SHA256
+Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 ```
 
 ### Verification on Android
 You can verify the hash on your Android device using terminal apps like [Termux](https://termux.dev/) or free hash verification tools from F-Droid:
 ```bash
-sha256sum /sdcard/Download/mymoney-v1.0.0.apk
+sha256sum /sdcard/Download/mymoney-v1.0.1.apk
 ```
 
 ---
