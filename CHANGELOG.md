@@ -1,5 +1,30 @@
 # Changelog — MyMoney (លុយខ្ញុំ)
 
+## [1.1.0] — 2026-11-24
+
+### Added
+- **Category Management UI (F-01):**
+  - Full management of expense and income categories with bilingual support (Khmer & English).
+  - 27 curated icons and 16 color choices tailored for Cambodian daily life.
+  - Safe category deletion (D-04): default category protection and mandatory transaction reassignment before deleting in-use categories.
+- **Transaction Full Edit & Duplicate (F-02):**
+  - Full-field editing of amount, type, currency, category, date, and notes from transaction details.
+  - One-tap duplicate action pre-filling details with today's date in Cambodia timezone (`Asia/Phnom_Penh`).
+
+### Fixed
+- **Global Android Safe Area Insets:** Mounted root `SafeAreaProvider` and implemented dynamic top status bar insets to prevent status bar overlap on notched and punch-hole displays.
+- **Responsive Category Icon Grid:** Dynamically scales between 4 and 5 columns to eliminate empty horizontal space, with enhanced 2-line label wrapping for long Khmer titles.
+
+### Technical & Platform Specifications
+- **Package Identifier:** `com.mymoney.app`
+- **Version Code:** `3`
+- **Target SDK:** Android 15 / 16 (API Level 36)
+- **Minimum SDK:** Android 7.0 Nougat (API Level 24)
+- **Engine:** Hermes JavaScript Bytecode (`.hbc`)
+- **Architectures:** Multi-ABI Universal (`arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
+- **Signing:** APK Signature Scheme v2 (Production Keystore)
+- **Verification Notice:** Physical Device UAT status: NOT COMPLETED / NOT VERIFIED.
+
 All notable public releases of **MyMoney (លុយខ្ញុំ)** are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).

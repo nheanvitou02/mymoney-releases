@@ -16,18 +16,18 @@
 
 ## 🇰🇭 ភាសាខ្មែរ (Khmer Section)
 
-### 📥 ទាញយក MyMoney v1.0.1 (Download APK)
+### 📥 ទាញយក MyMoney v1.1.0 (Download APK)
 
-- **កំណែផ្លូវការ (Version):** `v1.0.1` (versionCode `2`)
+- **កំណែផ្លូវការ (Version):** `v1.1.0` (versionCode `3`)
 - **កាលបរិច្ឆេទចេញផ្សាយ:** ខែវិច្ឆិកា ឆ្នាំ២០២៦
 - **ប្រព័ន្ធប្រតិបត្តិការដែលគាំទ្រ:** Android 7.0 (API Level 24) ឡើងទៅ
-- **តំណភ្ជាប់ទាញយកផ្ទាល់ (Direct APK Download):** [👉 ទាញយក mymoney-v1.0.1.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk)
-- **ទំព័រ Release ផ្លូវការលើ GitHub:** [GitHub Release v1.0.1](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.0.1)
+- **តំណភ្ជាប់ទាញយកផ្ទាល់ (Direct APK Download):** [👉 ទាញយក mymoney-v1.1.0.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.1.0/mymoney-v1.1.0.apk)
+- **ទំព័រ Release ផ្លូវការលើ GitHub:** [GitHub Release v1.1.0](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.1.0)
 - **ទំហំឯកសារ APK:** ប្រហែល 93.1 MB (Universal Multi-ABI គាំទ្រទាំង `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
 
 #### លេខកូដផ្ទៀងផ្ទាត់សុចរិតភាពកញ្ចប់កម្មវិធី (SHA-256 Checksum):
 ```text
-1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
+c0d95e95d45682a519e3e7704539f4c0e0e73ba10eeb3c2dc6d29318932b9f1a
 ```
 
 ---
@@ -45,7 +45,7 @@
 
 ---
 
-### ✨ មុខងារសំខាន់ៗដែលមានក្នុង v1.0.1 (Key Features)
+### ✨ មុខងារសំខាន់ៗដែលមានក្នុង v1.1.0 (Key Features)
 
 - **ក្រៅបណ្តាញ ១០០% (100% Offline Local-First):** ទិន្នន័យត្រូវបានរក្សាទុកក្នុងទូរស័ព្ទរបស់អ្នកដោយប្រើ Expo SQLite (WAL mode) មិនត្រូវការអ៊ីនធឺណិត និងគ្មានការបញ្ជូនទិន្នន័យចេញក្រៅ។
 - **ប្រព័ន្ធរូបិយប័ណ្ណពីរ (USD & KHR):** កត់ត្រាជាដុល្លារ ឬរៀលដោយឡែកពីគ្នា ព្រមទាំងបម្លែង និងបង្ហាញសមតុល្យរួមប្រកបដោយភាពសុក្រឹតតាមអត្រាប្តូរប្រាក់ដែលអ្នកកំណត់។
@@ -65,7 +65,7 @@
 
 ### 📲 របៀបដំឡើងលើ Android (Installation Guide)
 
-1. **ទាញយក APK:** ចុចលើតំណភ្ជាប់ [mymoney-v1.0.1.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk) ពីកម្មវិធី Browser (Chrome, Firefox, etc.)។
+1. **ទាញយក APK:** ចុចលើតំណភ្ជាប់ [mymoney-v1.1.0.apk](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.1.0/mymoney-v1.1.0.apk) ពីកម្មវិធី Browser (Chrome, Firefox, etc.)។
 2. **បើកឯកសារដែលបានទាញយក:** នៅពេលទាញយករួច ចុចបើកឯកសារពីផ្ទាំង Notification ឬចូលទៅកាន់កម្មវិធី **Files / Downloads** លើទូរស័ព្ទរបស់អ្នក។
 3. **អនុញ្ញាតការដំឡើង (Allow from this source):**
    - ប្រសិនបើប្រព័ន្ធ Android បង្ហាញសារជូនដំណឹងសុវត្ថិភាពថា *"For your security, your phone is not allowed to install unknown apps from this source"* សូមចុចលើ **Settings**។
@@ -82,20 +82,20 @@
 
 ដើម្បីធានាថាឯកសារ APK ដែលអ្នកបានទាញយកមកជាឯកសារពិតប្រាកដចេញពីប្រភពដើម និងគ្មានការកែប្រែដោយភាគីទីបី អ្នកអាចផ្ទៀងផ្ទាត់លេខកូដ SHA-256 ដូចខាងក្រោម៖
 
-- **SHA-256 ផ្លូវការសម្រាប់ v1.0.1:**
+- **SHA-256 ផ្លូវការសម្រាប់ v1.1.0:**
   ```text
-  1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
+  c0d95e95d45682a519e3e7704539f4c0e0e73ba10eeb3c2dc6d29318932b9f1a
   ```
 
 #### របៀបផ្ទៀងផ្ទាត់លើកុំព្យូទ័រ Linux / macOS:
 ```bash
-sha256sum mymoney-v1.0.1.apk
-# ឬលើ macOS: shasum -a 256 mymoney-v1.0.1.apk
+sha256sum mymoney-v1.1.0.apk
+# ឬលើ macOS: shasum -a 256 mymoney-v1.1.0.apk
 ```
 
 #### របៀបផ្ទៀងផ្ទាត់លើ Windows (PowerShell):
 ```powershell
-Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
+Get-FileHash .\mymoney-v1.1.0.apk -Algorithm SHA256
 ```
 
 ---
@@ -119,19 +119,19 @@ Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 
 ## 🇬🇧 English Section
 
-### 📱 Latest Stable Release: `v1.0.1`
+### 📱 Latest Stable Release: `v1.1.0`
 
 - **Release Date:** November 2026
 - **Package Identifier:** `com.mymoney.app`
-- **Current Version:** `1.0.1` (versionCode `2`)
-- **Direct APK Download:** [Download MyMoney v1.0.1 APK](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk)
-- **Official Release Page:** [GitHub Release v1.0.1](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.0.1)
+- **Current Version:** `1.1.0` (versionCode `3`)
+- **Direct APK Download:** [Download MyMoney v1.1.0 APK](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.1.0/mymoney-v1.1.0.apk)
+- **Official Release Page:** [GitHub Release v1.1.0](https://github.com/nheanvitou02/mymoney-releases/releases/tag/v1.1.0)
 - **All Releases:** [GitHub Releases Overview](https://github.com/nheanvitou02/mymoney-releases/releases)
 - **Package Size:** ~93.1 MB (Universal Multi-ABI supporting `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
 
 #### Package SHA-256 Checksum:
 ```text
-1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
+c0d95e95d45682a519e3e7704539f4c0e0e73ba10eeb3c2dc6d29318932b9f1a
 ```
 
 ---
@@ -149,7 +149,7 @@ Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 
 ---
 
-### ✨ Key Features in v1.0.1
+### ✨ Key Features in v1.1.0
 
 - **100% Offline & Local-First:** All financial records are stored strictly on-device in SQLite (`mymoney.db`) with WAL journal mode and foreign key enforcement.
 - **Dual-Currency Precision Math:** Integer arithmetic (cents for USD, riels for KHR) with runtime currency conversion and configurable rounding modes (`EXACT` and `CASH_100`).
@@ -169,7 +169,7 @@ Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 
 ### 📲 Installation Guide
 
-1. **Download:** Get [`mymoney-v1.0.1.apk`](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.0.1/mymoney-v1.0.1.apk) from your browser.
+1. **Download:** Get [`mymoney-v1.1.0.apk`](https://github.com/nheanvitou02/mymoney-releases/releases/download/v1.1.0/mymoney-v1.1.0.apk) from your browser.
 2. **Open:** Open the downloaded APK from your notification bar or Files/Downloads app.
 3. **Allow Installation:** If prompted with *"For your security, your phone is not allowed to install unknown apps from this source"*, tap **Settings** and toggle **"Allow from this source"** for that browser or file manager.
 4. **Confirm:** Tap **Install** on the confirmation dialog.
@@ -183,17 +183,17 @@ Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
 
 Verify the SHA-256 hash of your downloaded APK to ensure it matches the official build:
 
-- **Official SHA-256 for v1.0.1:**
+- **Official SHA-256 for v1.1.0:**
   ```text
-  1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
+  c0d95e95d45682a519e3e7704539f4c0e0e73ba10eeb3c2dc6d29318932b9f1a
   ```
 
 ```bash
 # Linux / macOS
-sha256sum mymoney-v1.0.1.apk
+sha256sum mymoney-v1.1.0.apk
 
 # Windows (PowerShell)
-Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
+Get-FileHash .\mymoney-v1.1.0.apk -Algorithm SHA256
 ```
 
 ---

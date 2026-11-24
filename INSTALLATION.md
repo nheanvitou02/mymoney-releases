@@ -18,12 +18,12 @@ This guide walks you through downloading, verifying, and installing the official
 ### Step 1: Download the Official APK
 1. Open your Android device browser (e.g. Chrome, Firefox, Brave) and navigate to:  
    **[https://github.com/nheanvitou02/mymoney-releases/releases/latest](https://github.com/nheanvitou02/mymoney-releases/releases/latest)**
-2. Under the **Assets** section, tap **`mymoney-v1.0.1.apk`** to begin downloading.
+2. Under the **Assets** section, tap **`mymoney-v1.1.0.apk`** to begin downloading.
 
 ### Step 2: Open the Downloaded APK
 Once the download is complete:
 - Tap the **Download complete** notification in your Android notification drawer, or
-- Open your device's **Files** or **Downloads** app and tap **`mymoney-v1.0.1.apk`**.
+- Open your device's **Files** or **Downloads** app and tap **`mymoney-v1.1.0.apk`**.
 
 ### Step 3: Allow Installation from this Source (If Prompted)
 Because MyMoney is distributed as an independent APK outside the Google Play Store, Android will display a standard security notice:
@@ -48,29 +48,29 @@ Because MyMoney is distributed as an independent APK outside the Google Play Sto
 
 To guarantee that your downloaded file is authentic, uncorrupted, and unaltered, you can verify its SHA-256 checksum.
 
-### Official SHA-256 Checksum for v1.0.1
+### Official SHA-256 Checksum for v1.1.0
 ```text
-1e45b22ab80ac2683e07b68f6ace250684e8bada764325d269aa369885a62a37
+c0d95e95d45682a519e3e7704539f4c0e0e73ba10eeb3c2dc6d29318932b9f1a
 ```
 
 ### Verification on Linux / macOS
 Open a terminal in your download folder and run:
 ```bash
-sha256sum mymoney-v1.0.1.apk
+sha256sum mymoney-v1.1.0.apk
 ```
-*(On macOS, use `shasum -a 256 mymoney-v1.0.1.apk`)*
+*(On macOS, use `shasum -a 256 mymoney-v1.1.0.apk`)*
 
 The output must match the official checksum above exactly.
 
 ### Verification on Windows (PowerShell)
 ```powershell
-Get-FileHash .\mymoney-v1.0.1.apk -Algorithm SHA256
+Get-FileHash .\mymoney-v1.1.0.apk -Algorithm SHA256
 ```
 
 ### Verification on Android
 You can verify the hash on your Android device using terminal apps like [Termux](https://termux.dev/) or free hash verification tools from F-Droid:
 ```bash
-sha256sum /sdcard/Download/mymoney-v1.0.1.apk
+sha256sum /sdcard/Download/mymoney-v1.1.0.apk
 ```
 
 ---
@@ -81,4 +81,4 @@ sha256sum /sdcard/Download/mymoney-v1.0.1.apk
 Android classifies any application installed outside Google Play as an "unknown app". This is standard operating system behavior designed to ensure user awareness. MyMoney is signed with an official cryptographic release key and requests **zero dangerous runtime permissions**.
 
 ### Will updating the app erase my financial data?
-No. When subsequent updates (`v1.0.1`, `v1.1.0`) are released, simply download and install the new APK over the existing installation. Android will update the application binary while preserving all your local SQLite financial records (`mymoney.db`). We also recommend periodically exporting a JSON backup from **Settings > Data Backup** for safekeeping.
+No. When subsequent updates (`v1.1.0`, `v1.1.0`) are released, simply download and install the new APK over the existing installation. Android will update the application binary while preserving all your local SQLite financial records (`mymoney.db`). We also recommend periodically exporting a JSON backup from **Settings > Data Backup** for safekeeping.
