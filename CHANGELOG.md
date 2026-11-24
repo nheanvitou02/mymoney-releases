@@ -23,7 +23,7 @@
 - **Engine:** Hermes JavaScript Bytecode (`.hbc`)
 - **Architectures:** Multi-ABI Universal (`arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64`)
 - **Signing:** APK Signature Scheme v2 (Production Keystore)
-- **Verification Notice:** Physical Device UAT status: NOT COMPLETED / NOT VERIFIED.
+- **Verification Status:** Physical Device UAT: PASS (16/16 Hardware Test Cases Verified by Product Owner).
 
 All notable public releases of **MyMoney (លុយខ្ញុំ)** are documented in this file.
 
